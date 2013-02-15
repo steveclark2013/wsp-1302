@@ -1,0 +1,40 @@
+header{
+	font-size: 0.95em;
+}
+
+body{
+	width: 85.33%;
+	max-width: 960px;
+	font-weight: normal;
+    font-family: 'Arial', sans-serif;
+    font-size: 0.95em;
+	margin:3em auto;
+}	
+
+ul{
+	text-align: left;
+	list-style-type: none;
+	margin-left: 100px;
+
+
+}
+
+h1{
+	text-align:center;
+	font-family: "Montez", cursive;
+	font_weight: bold;
+	font-size: 2.5em;
+}
+
+h3{
+	float:left;
+	margin-left: auto;
+}
+
+#logo{
+	text-align: center;
+}
+
+
+
+
