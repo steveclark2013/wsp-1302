@@ -1,76 +1,246 @@
-body {
-width:100%;
-background-color:#858585;
-font:Tahoma, Geneva, sans-serif;
-color:#FFF;
-line-height:1.5;
-align: 0, auto;
+body{
+	width: 85.33%;
+	max-width: 970px;
+	font-weight: normal;
+    font-family: 'Arial', sans-serif;
+    font-size: 0.99em;
+	margin:3em auto;
+	background-color: black;
+	background-image: url("../theatre_downtown_images/stage_curtains-full.jpg");
+	background-position: top center;
 }
 
-#main {
-align: 0, auto;
-width:82%;
-margin: 20px;
-padding:20px;
+nav{
+	font-size: .95em;
 }
 
-header{
-font-size:18px;
-align: 0, auto;
+nav ul{
+	overflow: hidden;
 }
 
-#intent, #analysis, #audience {
-width:90%;
-background:#666;
-border: 4px #FC6 solid;
-align; 0, auto;
-padding:20px;
-margin:20px;
+nav li{
+	text-align: center;
+	width: 110px;
+	margin-left: auto;
+	float: left;
 }
 
-a{
-color: #ffd700;
-font-size:18px;
+ul{
+	float: none;
+	list-style-type: none;
+}
+
+ul li{
+	color: #CDC0B0;
+}
+
+a {
+	color: gold;
+	font-weight:bold;
+	text-decoration: none;
+	outline: none;
+	display: block;
+	text-align: center;
 }
 
 a:hover {
-	color: white;
+	color: #CDC0B0;
 	text-decoration: underline;	
+}	
+
+#contact{
+	font-size: .95em;
+	font-weight:bold;
+	color: solid tan;
+	text-align: right;
+	margin-top: auto;
 }
 
+#description{ 
+	font-size: 1.25em;
+	text-align: left;
+	line-height: 2.5em;
+}
 
+#hours{
+	text-align: left;
+	font-family: 'Arial';
+}
 
-#column {
-background-color:#6C8894;
-border:3px #333399 solid;
-margin:0,auto;
-padding-left:15px;
-padding-right:15px;
-padding-bottom: 15px;
-padding-top:15px;
+#bo_hours{
+	font-family: 'Redressed';
+	text-align: left;
+	font-size: 0.95em;
+	margin-top:auto;
+}
 
--moz-column-count:3; /* Firefox */
--webkit-column-count:3; /* Safari and Chrome */
+#times{
+	font-family: 'Redressed';
+	text-align: left;
+	font-size: 0.95em;
+}
 
-column-count:3;
--moz-column-gap: 1.250em; /*20px*/;
--webkit-column-gap:1.250em;
-column-gap:1.250em;
+#prices{
+	font-family: 'Redressed';
+	text-align: left;
+	font-size: 0.95em;
+}
 
--moz-column-rule:0.125em outset #BDBDBD;
--webkit-column-rule:0.125em outset #BDBDBD;
-column-rule:0.125em outset #BDBDBD;
+#contribute{
+	color: solid #CDC0B0;
+	text-align: left;
+}
+
+#financial{
+	text-align: left;
+	float:none;
+}
+
+#now_playing{
+	font-family: 'Stalemate', cursive;
+	font-size: 4.00em;
+	text-align: center;
+	margin-left: auto;
+	margin-top: 60px;
+}
+
+#main_photo{
+	margin-left: auto;
+	float: right;
+}
+
+#theatre{
+	font-size: 1.5em;
+	text-align: left;
+	margin-top:auto;
+}
+
+#about{
+	color: #CDC0B0;
+}
+
+#celebrate{
+	color:gold;
+	font-family: "Montez";
+	font-size: .75em;
+	line-height: 0.0em;
+	font-weight: bold;
+	margin-left:5px;
+}
+
+#reservations{font-family: Redressed;}
+
+#seating{font-family: Redressed;}
+
+label{
+	color: #CDC0B0;
 }
 
 h1{
-	color: #7fffd4;
+	font-weight: bold;
+	font-family: 'Montez', cursive;
+	color: gold;
+	margin-top: 10px;
+	line-height: 1.1em;
+}
+
+h2{
+	color: #CDC0B0;
+	font-weight: bold;
+	font-family: 'Redressed', sans-serif;
 	text-align: center;
-	text-shadow: 0.290em 0.290em 0.290em #000000;
+}
+
+h3{
+	color: #CDC0B0;
+	text-align: center;
+	font-family: 'Redressed';
 }
 
 h5{
-	color: #7fffd4;
+	color: #CDC0B0;
 	text-align: center;
-	font-size: 18px;
-	text-shadow: 0.290em 0.290em 0.290em #000000;
+	font-size: 1em;
+	float: none;
+}
+
+h6{
+	text-align: center;
+	font-family:'Redressed', cursive;
+	font-size: .90em;
+	color: #CDC0B0
+}
+
+#index{ margin-top: 150px;}	
+
+#try-outs{ margin-top: 230px;}
+
+#about-us{ margin-top: 200px;}
+
+#buy{ margin-top: 45px;}
+
+#join{ margin-top: 150px;}
+
+#financial{ 
+	text-align: center;
+	margin-top: 140px;
+}
+
+p{
+	font-family: 'Arial', sans-serif;
+	font-size: .95em;
+	font-weight:bold;
+	color: #CDC0B0;
+	text-align: left;
+}
+
+#auditions{
+	font-family: 'Montez', cursive;
+	color: #CDC0B0;
+	text-align: center;
+	font-size: 2.00em;
+}
+
+#sherlock{
+	font-family: 'Montez', cursive;
+	font-size: 1.75em;
+}
+
+img{
+	border: 0.4875em solid tan;
+	border-style: outset;
+	border-radius: 0.936em;
+	margin-left: auto;
+	margin-right: 3.9375%;
+}
+
+
+@media screen and (min-width:650px) and (max-width: 959px) {
+	
+}
+	
+	
+@media screen and (min-width: 479px) and (max-width: 649px) {
+	#main_photo {display: none;}
+	#theatre{ font-size: 1.0em;}
+	#celebrate{ font-size:.75em;}
+	#contact{ font-size: 0.9em;}
+	#auditions{font-size: 1.75em;}
+	#now_playing{ 
+		margin-left: auto;
+		font-size: 3.00em;}
+	nav li{ float: none;}
+}
+	
+@media only screen and (max-width: 479px){
+	#main_photo {display: none;}
+	#theatre{ font-size: 1.0em;}
+	#celebrate{ font-size: .80em;
+				margin-left:auto;}
+	#contact{ font-size: 0.9em;}
+	#auditions{font-size: 1.75em;}
+	#now_playing{ 
+		margin-left: auto;
+		font-size: 2.95em;}
+    nav li{ float: none;}
 }
