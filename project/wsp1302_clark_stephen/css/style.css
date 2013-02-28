@@ -19,10 +19,11 @@ nav ul{
 }
 
 nav li{
-	text-align: center;
-	width: 110px;
-	margin-left: auto;
+	text-align: left;
+	width: 10%;
+	margin-left: auto 0%;
 	float: left;
+	height: 1.5541%;
 }
 
 ul{
@@ -45,71 +46,66 @@ a {
 
 a:hover {
 	color: #CDC0B0;
-	text-decoration: underline;	
+	text-decoration: none;	
 }	
 
-#contact{
-	font-size: .95em;
+#contact {
+	color: gold;
+	font-size: .7em;
 	font-weight:bold;
-	color: solid tan;
 	text-align: right;
-	margin-top: auto;
+	margin-top: 0%;
 }
 
-#description{ 
+#description { 
 	font-size: 1.25em;
 	text-align: left;
 	line-height: 2.5em;
 }
 
-#hours{
+#hours {
 	text-align: left;
 	font-family: 'Arial';
 }
 
-#bo_hours{
-	font-family: 'Redressed';
+#bo_hours {
+	font-family: 'Montez', cursive;
 	text-align: left;
 	font-size: 0.95em;
 	margin-top:auto;
 }
 
-#times{
-	font-family: 'Redressed';
+#times {
+	font-family: 'Montez', cursive;
 	text-align: left;
 	font-size: 0.95em;
 }
 
-#prices{
-	font-family: 'Redressed';
+#prices {
+	font-family: 'Montez', cursive;
 	text-align: left;
 	font-size: 0.95em;
 }
 
-#contribute{
-	color: solid #CDC0B0;
+#contribute {
+	font-family:"Montez", cursive;
+	color: #CDC0B0;
 	text-align: left;
 }
 
-#financial{
+#financial {
+	font-family: "Montez", cursive;
 	text-align: left;
 	float:none;
 }
 
-#now_playing{
-	font-family: 'Stalemate', cursive;
-	font-size: 4.00em;
-	text-align: center;
-	margin-left: auto;
-	margin-top: 60px;
-}
 
-#main_photo{
+#main_photo {
 	margin-left: auto;
 	float: right;
 }
 
-#theatre{
+#theatre { 
 	font-size: 1.5em;
 	text-align: left;
 	margin-top:auto;
@@ -119,18 +115,18 @@ a:hover {
 	color: #CDC0B0;
 }
 
-#celebrate{
+#celebrate {
 	color:gold;
-	font-family: "Montez";
+	font-family: "Montez", cursive;
 	font-size: .75em;
 	line-height: 0.0em;
 	font-weight: bold;
 	margin-left:5px;
 }
 
-#reservations{font-family: Redressed;}
+#reservations {font-family: 'Montez', cursive;}
 
-#seating{font-family: Redressed;}
+#seating {font-family: "Montez", cursive;}
 
 label{
 	color: #CDC0B0;
@@ -144,18 +140,29 @@ h1{
 	line-height: 1.1em;
 }
 
+#Godspell{
+	text-align: center;
+	font-weight: bold;
+	font-size: 2.0em;
+}
 h2{
 	color: #CDC0B0;
 	font-weight: bold;
-	font-family: 'Redressed', sans-serif;
+	font-family: "Montez", cursive;
 	text-align: center;
+	font-size: 4.00em;
+
 }
+
 
 h3{
 	color: #CDC0B0;
 	text-align: center;
-	font-family: 'Redressed';
+	font-family: 'Montez', cursive;
+	font-size: 2.0em;
 }
+
+#coming{ text-align: left;}
 
 h5{
 	color: #CDC0B0;
@@ -166,7 +173,7 @@ h5{
 
 h6{
 	text-align: center;
-	font-family:'Redressed', cursive;
+	font-family:'Montez', cursive;
 	font-size: .90em;
 	color: #CDC0B0
 }
@@ -201,9 +208,22 @@ p{
 	font-size: 2.00em;
 }
 
+span{color: gold;}
+
+#written{ text-align:left;}
+
 #sherlock{
 	font-family: 'Montez', cursive;
 	font-size: 1.75em;
+}
+
+#suicide{
+	font-family: 'Montez', cursive;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: left;
+	margin-right: 250px;
+	float: none;
 }
 
 img{
@@ -224,23 +244,29 @@ img{
 	#main_photo {display: none;}
 	#theatre{ font-size: 1.0em;}
 	#celebrate{ font-size:.75em;}
-	#contact{ font-size: 0.9em;}
+	#contact{ font-size: 0.75em;}
 	#auditions{font-size: 1.75em;}
 	#now_playing{ 
 		margin-left: auto;
 		font-size: 3.00em;}
-	nav li{ float: none;}
-}
+	nav ul li{
+			width:  100%;
+			float: none;}
+	nav ul{ padding: 0;}
+	}
 	
 @media only screen and (max-width: 479px){
 	#main_photo {display: none;}
 	#theatre{ font-size: 1.0em;}
 	#celebrate{ font-size: .80em;
 				margin-left:auto;}
-	#contact{ font-size: 0.9em;}
+	#contact{ font-size: 0.75em;}
 	#auditions{font-size: 1.75em;}
 	#now_playing{ 
 		margin-left: auto;
 		font-size: 2.95em;}
-    nav li{ float: none;}
+	nav ul li{
+			width:  100%;
+			float: none;}
+	nav ul{ padding: 0;}
 }
